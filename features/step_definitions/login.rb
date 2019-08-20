@@ -4,8 +4,8 @@ end
 
 Quando(/^usuário preencher os campos para login$/) do
   fill_in "clientMerchant", :with => "PDV1"
-  fill_in "username", with: "paula.milani.ext@beblue.com.br"
-  fill_in "password", with: "GgyhAGNuuAuu2EPG"
+  fill_in "username", with: "email"
+  fill_in "password", with: "senha"
   click_button 'Entrar'
   sleep 5
 end
