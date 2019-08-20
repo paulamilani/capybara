@@ -1,5 +1,5 @@
 Dado(/^que usuário acesse o portal$/) do
-  visit 'https://staging-portal.beblue.com.br/admin/login'
+  visit 'https:// url'
 end
 
 Quando(/^usuário preencher os campos para login$/) do
