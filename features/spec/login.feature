@@ -1,16 +1,11 @@
 #language: pt 
 
-Funcionalidade: Login portal
+Funcionalidade: Login the-internet
 
 -como usuário
--quero logar no portal    
+-quero acessar the-internet e realizar um login    
     
 Cenário: Login com sucesso
-    Dado que usuário acesse o portal
-    Quando usuário preencher os campos para login
+    Dado que usuário acesse o site
+    Quando usuário preencher os campos para login e senha
     Então login deverá acontecer com sucesso
-
-Cenário: Login sem sucesso 
-    Dado que usuário acesse o portal
-    Quando usuário preencher os campos para login incorreto
-    Então login não deverá acontecer com sucesso

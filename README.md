@@ -44,3 +44,8 @@ Gems
 /feature/step_definitions - diretório para os arquivos de step(testes executados)
 
 /feature/spec - diretório para os arquivos de feature(BDD)
+
+
+#Executar os testes
+cucumber
+
